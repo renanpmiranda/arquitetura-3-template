@@ -125,7 +125,7 @@ export class ProductBusiness {
         //     product: product
         // }
 
-        const output = this.productDTO.editProductInput(product)
+        const output = this.productDTO.editProductOutput(product)
 
         return output
     }
